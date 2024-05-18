@@ -16,3 +16,18 @@ section {
     text-decoration: underline;
     
 }
+#image{
+
+}
+.image {
+    border: 2px solid #f6f3f3; /* Initial border color */
+    padding: 20px;
+    width: fit-content;  /* Ensures the image fits its container */
+    height: auto; 
+    transition: border-color 0.3s; /* Smooth transition for the border color */
+}
+
+/* Hover effect to change the border color */
+.image:hover {
+    border-color: #3498db; /* New border color on hover */
+}
